@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.main {
+    height: 3300px;
+    /* border: 3px solid black; */
+    margin:20px;
+    /* padding:20px; */
+}
+
+.head-bar{
+    justify-content: space-between; 
+    /* width: 100vw; */
+    padding:5px 3px 5px 3px;
+    height: 55px;
+    align-items: center;
+    margin-top:1px;
+    display: flex;
+    border: 2px solid black;
+}
+
+.head-bar-left{
+    font-weight: bold;
+    padding:20px;
+    font-size:42px;
+    font-family:Bebas Neue;
+    transition:all 0.2s;
+}
+
+.head-bar-left:hover{
+    scale:1.2;
+}
+
+.head-bar-right{
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
+    /* gap:1px; */
+    justify-content:space-evenly;
+    align-content: center;
+    padding:40px;
+    gap:20px;
+    /* font-family:; */
+}
+.head-bar-right1 p{
+    /* border:1px solid black; */
+    /* height:62px; */
+    /* width:130px; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0px;
+    border-radius:3px;
+}
+
+
+.head-bar-right1 {
+    color: black;
+    /*transition: 2s ease-in-out;
+    transition-delay: 1s; */
+    transition:all 0.2s;
+}
+.head-bar-right1:hover{
+    scale: 1.3;
+}
+
+/* .explore{
+    width:100%;
+    border:2px solid black;
+} */
+.explore-text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    margin:50px;
+    /* width:900px; */
+    font-size:70px;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-text > p:hover{
+    color:rgb(17, 100, 152);
+    
+}
+
+
+
+img{
+    width:98%;
+}
+.img{
+    margin-bottom:120px;
+}
+
+p{
+    margin:0px;
+}
+.imgs{
+    height:1000px;
+    margin-top:25px;
+    width:100%;
+    /* border:2px solid black; */
+    display: grid;
+    gap:25px;
+    font-size:20px;
+    /* margin-bottom:250px; */
+    /* border-radius: 2px; */
+    grid-template-columns: repeat(3,1fr);
+}
+.img-container{
+    scale: 1;
+    /* border-radius:3px; */
+    padding:0px;
+    margin:0px;
+    transition:all 0.2s;
+}
+
+.img-container:hover{
+    scale:1.1;
+}
+.img-container p{
+    font-family: monospace;
+}
+
+.msg-box{
+    width:100%;
+    height:250px;
+    /* border:2px solid rgb(255, 255, 255); */
+}
+.msg{
+    width:45%;
+    height:200px;
+    margin-top:200px;
+    /* border:2px solid black; */
+    line-height: 40px;
+    font-family: Bebas Neue;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.contact-box{
+    /* border:2px solid black; */
+    width:100%;
+    height:280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-left{
+    width:200px;
+    height:35px;
+    margin-top:15px;
+    font-weight: bold;
+    font-size:30px;
+    /* margin-left:15px; */
+    /* border:2px solid black; */
+    font-family:Bebas Neue;
+    font-weight: bold;
+
+    /* font-size:x-large; */
+}
+.cont-left:hover{
+    cursor: pointer;
+    color:darkgoldenrod;
+}
+
+
+.cont-right{
+    /* border:2px solid black; */
+    height:220px;
+    margin-right: 50px;
+    /* margin-right:20px; */
+    display:flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap:90px;
+    padding:10px;
+}
+
+.cont-right-1{
+    /* width:250px; */
+    height:200px;
+    /* border:2px solid black; */
+    font-family: Roboto Mono;
+
+    font-size:22px;
+}
+.cont-right-1 p:hover{
+    color:darkgoldenrod;
+    cursor: pointer;
+
+}
+.cont-right-2{
+    /* width:250px; */
+    height:200px;
+    /* border:2px solid black; */
+    font-family: Roboto Mono;
+    font-size:22px;
+}
+.cont-right-2 p:hover{
+    color:darkgoldenrod;
+    cursor: pointer;
+
+}
+
+.cont-right-3{
+    /* width:250px; */
+    height:200px;
+    /* border:2px solid black; */
+    font-family: Roboto Mono;
+    font-size:22px;
+}
+.cont-right-3 p:hover{
+    color:darkgoldenrod;
+    cursor: pointer;
+
+}
+
+
+.down-main{
+    /* border:2px solid black; */
+    width:100%;
+    height:400px;
+    display: grid;
+    justify-content: center;
+}
+.down{
+    /* border:2px solid black; */
+    width:600px;
+    height:350px;
+    display:grid;
+    grid-template-rows: repeat(4,1fr);
+}
+
+.down-1{
+    /* border:2px solid black; */
+    height:60px;
+    font-size:50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.down-2{
+    /* border:2px solid black; */
+    height:30px;
+    font-size:20px;
+    font-family:monospace;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.down-3{
+    /* border:2px solid black; */
+    height:80px;
+    display: flex;
+    margin-bottom:34px;
+    justify-content:space-evenly;
+}
+.form {
+    display: flex;
+    /* width: 100%; */
+    width: 600px;
+    gap: 12px;
+    justify-content: center;
+  }
+  .vinput {
+    border-radius: 8px;
+    width: 56px;
+    height: 64px;
+    border: 2px solid rgba(255,255,255,0.24);
+    color:black;
+    font-size: 25px;
+    text-align: center;
+  }
+
+.down-4{
+    /* border:2px solid black; */
+    height:60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    border-radius: 5px;
+
+}
+
+.down-5{
+    /* border:2px solid black; */
+    height:32px;
+    display: grid;
+    font-size: 30px;
+    font-family: Roboto Mono;
+    justify-content: center;
+}
+.down-5 p:hover{
+    cursor: pointer;
+    color:rgb(17, 100, 152);
+
+}
+
+.boxes{
+    border:2px solid black;
+    width:70px;
+    height:70px;
+    border-radius:5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+input[type="submit"]{
+    width:140px;
+    height:40px;
+    font-family: Roboto Mono;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+footer{
+    width:100%;
+    height:90px;
+    /* border:2px solid rgb(255, 0, 0); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-left{
+    margin-left:5px;
+    font-size:30px;
+    /* font-weight: bold; */
+    font-family:Bebas Neue;
+}
+.last-right input[type=submit]{
+    margin-right:20px;
+    font-family:Roboto Mono;
+    /* width:90px; */
+}
