@@ -274,7 +274,7 @@ p{
     border-radius: 8px;
     width: 56px;
     height: 64px;
-    border: 2px solid rgba(255,255,255,0.24);
+    border: 2px solid black;
     color:black;
     font-size: 25px;
     text-align: center;
@@ -302,6 +302,7 @@ p{
 .down-5 p:hover{
     cursor: pointer;
     color:rgb(17, 100, 152);
+
 
 }
 
