@@ -81,11 +81,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation:opacity 3s;
 }
-.explore-text > p:hover{
-    color:rgb(17, 100, 152);
-    
+
+@keyframes opacity {
+0%{
+    opacity: 0%;
+
 }
+
+100%{
+    opacity:100%;
+}
+}
+
+
 
 img{
     width:95%;
